@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+}
+ul{
+    list-style: none;
+    margin-left: 70px;
+}
+li{
+    display: inline;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    margin-right: 100px;
+}
+header a{
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    color: white;
+    text-decoration: none;
+    background: rgb(51, 57, 66);
+    position: relative;
+    top: -40px;
+    left: 1200px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+main{
+    height: 400px;
+    background: rgb(241, 243, 245);
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.woman{
+    margin-left: 500px;
+    position: relative;
+    top: -285px;
+}
+h1,  main p{
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-weight: 400;
+    color: rgb(85, 84, 84);
+    margin-left: 50px;
+    margin-right: 800px;
+}
+.power{
+    font-size: 20px;
+}
+.email, .Submit{
+    position: relative;
+    top: -320px;
+    margin-left: 50px;
+    height: 30px;
+}
+.email{
+    width: 300px;
+    border-radius: 5px;
+}
+.Submit{
+    color: white;
+    background: rgb(184, 197, 207);
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    margin-left: 0px;
+}
+.smallerSection{
+    height: 300px;
+}
+h2{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-weight: 600;
+    color: rgb(85, 84, 84);
+}
+
+.develop{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-top: 50px;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+}
+.smallSection{
+    font-weight: 700;
+    border-top: solid 5px rgb(255, 219, 239);
+}
+.foster{
+    font-size: 20px;
+    margin-left: 800px;
+    margin-right: 200px;
+    margin-top: -75px;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    
+}
+.boston{
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    color: rgb(178, 176, 176);
+    font-style: italic;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+section{
+    height: 600px;
+}
+h3{
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-weight: 600;
+    margin-left:100px ;
+}
+.mainPhotos{
+    float: right;
+    margin-top: -530px;
+    margin-right: 100px;
+}
+section p{
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';  
+    color: rgb(85, 84, 84);
+    margin-right: 750px;
+    margin-left:100px;
+}
+.graySection{
+    background: rgb(241, 243, 245);
+}
+h4{
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    font-weight: 700;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+}
+.fish{
+    margin-left: 100px;
+    position: relative;
+    top: -250px;
+}
+.toko{
+    margin-left: 200px;
+    position: relative;
+    top: 40px;
+}
+.TokoFish{
+    margin-left: 565px;
+    margin-right: 200px;
+    margin-top: -240px;
+    font-size: 18px;
+}
+div{ 
+    border: lightgray solid 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h5{
+    font-family:'Lato','Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(164, 164, 164);
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.foundation{
+    margin-right: 800px;
+    margin-left: 200px;
+}
+.simmons, .mass{
+    position: relative;
+    left: 800px;
+    top: -200px;
+}
+.simmons{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(164, 164, 164);
+    font-size: 20px;
+    font-weight: 500;
+}
+.mass{
+    color:rgb(164, 164, 164); 
+    font-size: 10px;
+    border-top: solid 2px rgb(164, 164, 164);
+    position: relative;
+    top: -180px;
+    bottom: 0px;
+    left: 700px;
+    right: 0px;
+}
+.cgo{
+    position: relative;
+    left: 700px;
+    top: -170px;
+    margin-right: 900px;
+}
+footer{
+    height: 225px;
+    background: rgb(143, 156, 163);
+}
+.signup{
+    font-family:'Lato','Courier New', Courier, monospace;
+    color: white;
+    background: rgb(184, 197, 208);
+    height: 60px;
+    margin-top: -4px;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.emailFooter{
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: -60px;
+    left: 700px;
+    height: 30px;
+}
+.SubmitFooter{
+    color: white;
+    background: rgb(143, 156, 163);
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    margin-left: 0px;
+    position: relative;
+    top: -60px;
+    left: 750px;
+}
+.copyright{
+    color: white;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-size: 12px;
+    border-bottom: white 1px solid;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.socials{
+   color: white;
+   font-size: 12px;
+   position: relative;
+   top: -50px; 
+   left: 1200px;
+}
+footer li{
+    display: block;
+}
+.home{
+    margin-top: -20px;
+    margin-left: 60px;
+    color: white;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-size: 12px;
+}
+.program{
+    margin-top: -80px;
+    margin-left: 250px;
+    color: white;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-size: 12px;
+}
+.JWLIA{
+    margin-top: -105px;
+    margin-left: 500px;
+    color: white;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-size: 12px;
+}
+.footer{
+    margin-top: -90px;
+    margin-left: 750px;
+    color: white;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT';
+    font-size: 12px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:1024px) {
+    header li{
+        margin-right:30px ;
+        margin-left: 0px;
+    }
+    header a{
+        margin-left: -400px;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    h1{
+        margin-right: -30px;
+    }
+    .woman{
+        height: 200px;
+        margin-top: 150px;
+        margin-left: 300px;
+    }
+    .power{
+        margin-right: 300px;
+    }
+    main p{
+        margin-right: 0px;
+    }
+    h2{
+        margin: 0px;
+    }
+    .develop{
+        margin-left: 20px;
+        margin-right: 500px;
+    }
+    .foster{
+        margin-left: 550px;
+        margin-right: 0px;
+    }
+    .boston{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .graySection p{
+        margin-right: 400px;
+        margin-left: 20px;
+    }
+    .graySection img{
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+    .toko{
+        margin-left: 0px;
+    }
+    .TokoFish{
+        margin-right: 0px;
+        margin-left: 300px;
+    }
+    h5{
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    .foundation{
+        margin-right: 500px;
+        margin-left: 20px;
+    }
+    .simmons, .mass{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cgo{
+        margin-right: 700px;
+        margin-left: -150px;
+    }
+    .simmon{
+        margin-left: -250px;
+        margin-top: -50px;
+        border: none;
+    }
+    .signup{
+        margin-left: -150px;
+    }
+    .emailFooter{
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width:900px) {
+    .woman{
+        position: relative;
+        left: 350px;
+    }
+    .email, .Submit{
+        position: relative;
+        top: 50px;
+    }
+    .boston{
+        margin-top: -50px;
+    }
+    .graySection img{
+        position: relative;
+        top: -80px;
+    }
+    .graySection p{
+        font-size: 15px;
+    }
+    .emailFooter{
+        margin-left: -300px;
+    }
+    .copyright{
+        margin-left: 20px;
+    }
+    .home{
+        margin-left: 0px;
+    }
+    .program{
+        margin-left: 150px;
+    }
+    .JWLIA{
+        margin-left: 350px;
+    }
+    .footer{
+        display: none;
+    }
+    .cgo{
+        font-size: 15px;
+    }
+}
